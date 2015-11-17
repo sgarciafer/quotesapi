@@ -1,0 +1,7 @@
+quotespai.content:
+  path: '/hello'
+  defaults:
+    _controller: '\Drupal\quotesapi\Controller\QuotesController::content'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
