@@ -1,0 +1,8 @@
+name: 'Quotes API'
+type: module
+description: 'API to manage and serve quotes and images'
+package: Web services
+core: 8.x
+dependencies:
+  - rest
+  - serialization
