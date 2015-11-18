@@ -1,0 +1,19 @@
+uuid: 2efc796f-42ee-4aad-b900-e1a7f6325162
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_quotesapi_text
+field_name: field_quotesapi_text
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

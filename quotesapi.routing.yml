@@ -1,7 +1,15 @@
-quotespai.content:
+quotesapi.content:
   path: '/hello'
   defaults:
     _controller: '\Drupal\quotesapi\Controller\QuotesController::content'
     _title: 'Hello World'
   requirements:
     _permission: 'access content'
+
+quotesapi.settings:
+  path: '/admin/config/services/quotesapi'
+  defaults:
+    _controller: '\Drupal\quotesapi\Controller\QuotesController::settings'
+    _title: 'Quotes API settings'
+  requirements:
+    _permission: 'administer site configuration'

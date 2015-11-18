@@ -6,3 +6,5 @@ core: 8.x
 dependencies:
   - rest
   - serialization
+  - image
+  - file

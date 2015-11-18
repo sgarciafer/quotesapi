@@ -15,5 +15,12 @@ class QuotesController extends ControllerBase {
         '#markup' => $this->t('Hello, World!'),
     );
   }
+  public function settings() {
+    return array(
+        '#type' => 'markup',
+        '#markup' => $this->t('To do... content of the admin page.'),
+    );
+  }
+
 }
 ?>

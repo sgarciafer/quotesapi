@@ -1,0 +1,5 @@
+quotesapi.settings:
+  title: 'Quotes API settings'
+  parent: system.admin_config_services
+  description: 'Admin settings page link'
+  route_name: quotesapi.settings
