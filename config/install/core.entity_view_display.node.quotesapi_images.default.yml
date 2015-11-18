@@ -1,0 +1,26 @@
+uuid: 7a7d6917-c87a-482e-a65e-9479d64df3db
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.quotesapi_images.field_image
+    - node.type.quotesapi_images
+  module:
+    - image
+    - user
+id: node.quotesapi_images.default
+targetEntityType: node
+bundle: quotesapi_images
+mode: default
+content:
+  field_image:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  links:
+    weight: 100
+hidden: {  }

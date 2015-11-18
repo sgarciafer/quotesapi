@@ -1,0 +1,23 @@
+uuid: 7ad53b05-758d-425f-bd08-8a1779bc649d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.quotesapi_quotes.field_quotesapi_text
+    - node.type.quotesapi_quotes
+  module:
+    - user
+id: node.quotesapi_quotes.default
+targetEntityType: node
+bundle: quotesapi_quotes
+mode: default
+content:
+  field_quotesapi_text:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  links:
+    weight: 100
+hidden: {  }
