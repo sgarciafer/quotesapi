@@ -1,5 +1,6 @@
 <h2>Quotes API</h2>
-Quotes API is a Drupal 8 module that allows to serve and manage short sentences and images through an API sorted by taxonomy terms.
+Quotes API is a Drupal 8 module that allow to serve and manage short sentences and images through an API. 
+Content is sorted using taxonomy terms.
 
 The actions that can be performed through the API are Create, Update, Delete.
 
